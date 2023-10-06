@@ -8,7 +8,7 @@
     }
   ],
   "posts": [
-    { "id": 1, "title": "json-server-auth wit render", "author": "Red" }
+    { "id": 1, "title": "json-server-auth with render", "author": "Red" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
