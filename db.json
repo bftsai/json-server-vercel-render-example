@@ -1,11 +1,17 @@
 {"users": [
-    
+    {
+      "email": "red@mail.com",
+      "password": "red123456",
+      "firstname": "Red",
+      "lastname": "tsai",
+      "age": 32
+    }
   ],
   "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
+    { "id": 1, "title": "json-server-auth wit render", "author": "Red" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "Red" }
 }
