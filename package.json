@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Deploy JSON Server to Vercel",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "json": "json-server-auth db.json"
   },
   "dependencies": {
     "cors": "^2.8.5",
