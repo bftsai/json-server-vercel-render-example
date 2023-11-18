@@ -73,7 +73,7 @@
             obj.firstname=validationCustomFistName.value;
             obj.lastname=validationCustomLastName.value;
             obj.age=validationCustomAge.value;
-
+            console.log(obj);
             axios.post(`${apiUrl}/register`,obj)
                 .then(res=>{
                     console.log(res);

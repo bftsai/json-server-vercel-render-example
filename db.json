@@ -1,11 +1,6 @@
-{ "users": [
-    {
-      "email": "red@mail.com",
-      "password": "red123456",
-      "firstname": "Red",
-      "lastname": "tsai",
-      "age": 31
-    }
+{ 
+  "users": [
+    
   ],
   "posts": [
     { "id": 1, "title": "json-server-auth with render", "author": "Red" }
