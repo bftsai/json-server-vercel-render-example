@@ -48,7 +48,7 @@
             </div>
           </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit" class="submit">Submit form</button>
+          <button class="btn btn-primary submit" type="submit">Submit form</button>
         </div>
       </form>
 
@@ -57,7 +57,6 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script>
         const apiUrl='https://outfitpals-web-server.onrender.com';
-        const validationCustomFistName=document.getElementById('validationCustomFistName');
         const validationCustomFistName=document.getElementById('validationCustomFistName');
         const validationCustomLastName=document.getElementById('validationCustomLastName');
         const validationCustomMail=document.getElementById('validationCustomMail');
@@ -77,9 +76,11 @@
 
             axios.post(`${apiUrl}/register`,obj)
                 .then(res=>{
+                    console.log(res);
                     alert('success')
                 })
                 .catch(err=>{
+                    console.log(err);
                     alert('failed')
                 })
         })
